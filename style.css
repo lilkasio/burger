@@ -5,17 +5,17 @@ body {
     padding: 0px;
 }
 
-header {
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    height: 120px;
-    max-width: 1440px;
+.container {
     margin: 0 auto;
+    max-width: 1440px;
+}
+
+header .container {
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 header img {
     width: 161px;
@@ -80,4 +80,3 @@ header a {
 .header-nav a:hover {
     color: #FF5634;
 }
-
